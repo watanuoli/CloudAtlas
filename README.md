@@ -22,6 +22,7 @@ src
 文件存储：HDFS集群
 
 系统架构：
+<pre>
                     RESTful service
                          ||
 |---------|       |--------------|       |--------------|
@@ -41,6 +42,7 @@ File Metadata Structure:
  CreateTime,
  URL       # 文件在HDFS上的访问地址
 }
+</pre>
 
 客户端发出HTTP请求到File Service服务器的Webservice接口，File Service处理此请求，并返回应到Client。
  
