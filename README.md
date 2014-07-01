@@ -1,5 +1,18 @@
 CloudAtlas
 ==========
+安装指南：
+1.Initialize root user
+/usr/bin/mysqladmin -u root password ""
+
+2.execute photoupload.sql
+
+3.php env setup
+http://wenku.baidu.com/link?url=MHniol297oGX6kYor5KiWAGmWoqthAEy494iB29N62IeLetWX_5mWIgX5oyiv4H4wAoI4VxwZD2BUqMplPTryYE7HA3EYDQoneAXXPG2gvC
+
+4.extra package installation (apt-get install ...)
+php5-curl
+php-services-json
+
 
 GY4 team-10 project
 
